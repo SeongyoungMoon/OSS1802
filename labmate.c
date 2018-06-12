@@ -7,6 +7,7 @@
 
 
 //TODO: please someone write a build script.
+#! /bin/bash
 
 int n_students = 0 ;
 int n_teams = 0 ;

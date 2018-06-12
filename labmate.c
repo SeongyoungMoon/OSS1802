@@ -65,7 +65,7 @@ void read_conflict(char * fname)
 		free(b) ;
 
 		if (n_members <= 1) {
-			fprintf(stderr, "Wrong input") ; //TODO: need a better error message.
+			fprintf(stderr, "The number of members should be larger than 1\n") ; //TODO: need a better error message.
 			exit(1) ;
 		}
 
